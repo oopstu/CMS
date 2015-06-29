@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class member extends CI_Controller {
+class comment extends CI_Controller {
     /**
      * Index Page for this controller.
      *
@@ -18,7 +18,7 @@ class member extends CI_Controller {
      */
     public function index()
     {
-        echo 'x';
+        echo 'api';
 //		$this->load->view('welcome_message');
     }
 }

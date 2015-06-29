@@ -49,13 +49,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'fontend/home/index';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
 
-$route['admin'] = 'backoffice/dashboard';
-$route['admin/(:any)'] = 'backoffice/$1';
-$route['admin/(:any)/(:any)'] = 'backoffice/$1/$2';
+switch ($_SERVER['HTTP_HOST']) {
+    case 'api.localhost':
+        $route['default_controller'] = "api/comment/index";
+        $route['(:any)'] = 'api/$1/index';
+        $route['(:any)/(:any)'] = 'api/$1/$2';
+    break;
+    default:
+        $route['default_controller'] = 'fontend/home/index';
+        $route['404_override'] = '';
+        $route['translate_uri_dashes'] = FALSE;
 
-$route['(:any)'] = 'fontend/$1';
-$route['(:any)/(:any)'] = 'fontend/$1/$2';
+        $route['admin'] = 'backoffice/dashboard';
+        $route['admin/(:any)'] = 'backoffice/$1';
+        $route['admin/(:any)/(:any)'] = 'backoffice/$1/$2';
+
+        $route['(:any)'] = 'fontend/$1';
+        $route['(:any)/(:any)'] = 'fontend/$1/$2';
+
+     break;
+}
+
+
