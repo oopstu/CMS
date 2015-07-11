@@ -96,7 +96,7 @@ class Modules
 	
 			/* set the module directory */
 			$path = APPPATH.'controllers/'.CI::$APP->router->directory;
-			
+
 			/* load the controller class */
 			$class = $class.CI::$APP->config->item('controller_suffix');
 			self::load_file(ucfirst($class), $path);
@@ -153,7 +153,7 @@ class Modules
 			{
 				log_message('debug', "File already loaded: {$location}");				
 				return $result;
-			}	
+			}
 			include_once $location;
 		} 
 		else 
