@@ -54,6 +54,6 @@ class comment extends CI_Controller {
     }
 
     public function like(){
-
+        echo 'x';
     }
 }
