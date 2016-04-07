@@ -37,8 +37,8 @@
       <file leaf-file-name="comment.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/comment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -58,6 +58,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="28d288ffe23ed11744ab5745e45bf5ddd1f17c90" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -356,7 +361,7 @@
       <updated>1435541483352</updated>
       <workItem from="1460022675019" duration="438000" />
       <workItem from="1460023207123" duration="15000" />
-      <workItem from="1460024109220" duration="817000" />
+      <workItem from="1460024109220" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="Clear MVC">
       <created>1435580916014</created>
@@ -449,11 +454,25 @@
       <option name="project" value="LOCAL" />
       <updated>1460025029405</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test2xx&#10;">
+      <created>1460025126812</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1460025126812</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Test2xx&#10;">
+      <created>1460025225654</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1460025225654</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1270000" />
+    <option name="totallyTimeSpent" value="1634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,6 +517,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
+    <option name="BEK_SORT_TYPE" value="1" />
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
@@ -851,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/comment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding />
         </state>
       </provider>
