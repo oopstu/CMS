@@ -49,11 +49,14 @@ class comment extends CI_Controller {
 
             )
         );
-        $this->core->_erase($config);
 
     }
 
     public function like(){
+
+    } public function like1(){
+
+    } public function like2(){
 
     }
 }
